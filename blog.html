@@ -1,19 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech2etc Ecommerce Tutorial</title>
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LazyDen</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap"
+        rel="stylesheet">
 
-        <link rel="stylesheet" href="style.css">
-    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/LOGO.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa fa-shopping-cart" style="font-size:24px"></i></a></li>
+                <a href="#" id="close"><i class=" fa fa-chevron-left" style="color: black;"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa fa-shopping-cart" style="font-size:24px; color: black;"></i></a>
+            <i id="bar" class="fa fa-align-justify"></i>
+        </div>
+    </section>
 
-        <script src="script.js"></script>
-    </body>
+    <section id="blog-header">
+        <h2>#ReadMore</h2>
+        
+    </section>
+
+    <section id="blog">
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="img/blog/bl1.webp" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>The Student's Guide to Laptops: Budget Buys and Powerhouse Picks</h4>
+                <p>we'll be your guide to navigating the world of laptops specifically for students! We'll break down the key considerations for budget-conscious students</p>
+                <a href="#">CONTINUE READING</a>
+            </div>
+            <h1>13/01</h1>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="img/blog/bl2.webp" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>Future-Proof Your Purchase: Tech Trends for Your Next Laptop</h4>
+                <p>Forget outdated specs! This blog post dives deep into the cutting-edge tech trends influencing laptops. We'll dissect features like...</p>
+                <a href="#">CONTINUE READING</a>
+            </div>
+            <h1>26/01</h1>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="img/blog/bl3.webp" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>Is Your Laptop Slowing You Down? Upgrade Time!</h4>
+                <p>Storage Stutters: Struggling with load times and sluggish app launches? We'll explain how upgrading from a traditional HDD (hard disk drive) to a blazing-fast...</p>
+                <a href="#">CONTINUE READING</a>
+            </div>
+            <h1>7/07</h1>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="img/blog/bl4.webp" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>Unboxing the Perfect Laptop: Tips and Reviews from LazyDen</h4>
+                <p>The LazyDen Verdict: We'll summarize our findings and offer a clear recommendation. Is this laptop worth your money?...</p>
+                <a href="#">CONTINUE READING</a>
+            </div>
+            <h1>9/11</h1>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 ">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about pur latest shop and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="your email address">
+            <button class="normal">Sign Up</button>
+
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo"src="img/LOGO.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>562 Urban Enclave,Punjab</p>
+            <p><strong>Phone:</strong>+91-8273566790</p>
+            <p><strong>Hours:</strong>10-6pm, Mon - Sat</p>
+            
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa fa-facebook-square"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-twitter-square"></i>
+                    <a href="https://github.com/arjun7779/LazyDen" target=”_blank”><i class="fa fa-github"></i></a>
+                    <i class="fa fa-youtube-play"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us </a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us </a>
+
+        </div>
+        <div class="col">
+
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order </a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+
+    </div>
+
+    </footer>
+
+    <script src="function.js"></script>
+
+</body>
 
 </html>
